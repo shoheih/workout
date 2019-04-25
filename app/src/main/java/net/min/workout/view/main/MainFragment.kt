@@ -44,6 +44,7 @@ class MainFragment : Fragment() {
 
         viewModel.initParameters()
 
+        button.setBackgroundResource(R.drawable.btn_circle_form)
         button.setOnClickListener {
             viewModel.countUp()
         }
